@@ -33,26 +33,26 @@ A aplicação tem como objetivo extrair todas a teclas digitadas pelo usuário n
 #### 1° Importe o projeto para o Netbeans
 #### 2° Importe a biblioteca JAVAFX para o seu projeto
 
-```java
+```
   Clique no projeto com o botão direito -> Properties -> Libraries -> importe a biblioteca clicando no sinal + do Classpath
 ```
-```java
+```
 Adicione as demais bibliotecas citadas clicando em Add JAR/Folder
 ```
-``` java
+```
 Ainda na opção Libraries vá na opção Run e adicione a biblioteca JAVAFX ao ModulePath
 ```
 
 ### Configurações do banco de dados
 #### 1° Criar o banco a partir do arquivo
-```java
+```
 Dentro da pasta dataBase do projeto abra o arquivo e copie as query's para seu gerenciador de banco de dados de sua preferência
 ```
 Nesse caso sugiro o [Railway](https://railway.app/). Gerenciador de banco de dados online e de fácil utilização.
-```java
+```
 No Railway, logue com o GitHub e crie uma data base MySQL, execute as query's
 ```
-```java
+```
 Na aba de connection copia os dados e substitua nas strings da classe DAO, conforme já está no código
 ```
 
