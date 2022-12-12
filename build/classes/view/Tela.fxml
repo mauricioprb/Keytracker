@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="423.0" prefWidth="440.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaController">
+   <children>
+      <AnchorPane fx:id="toolbar" prefHeight="440.0" prefWidth="92.0" style="-fx-background-color: #3D3D3D; -fx-background-radius: 14px;" translateZ="-7.0">
+         <children>
+            <ImageView fx:id="btnInfos_selecionado" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="246.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons/infos_selecionado.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnLogs_selecionado" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="149.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons/logs_selecionado.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnPrincipal" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="50.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="52.0">
+               <image>
+                  <Image url="@../img/icons/principal.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnLogs" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="149.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons/logs.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnInfos" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="246.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons/infos.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnFechar" fitHeight="44.0" fitWidth="44.0" layoutX="22.0" layoutY="363.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="52.0">
+               <image>
+                  <Image url="@../img/icons/fechar.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnPrincipal_selecionado" fitHeight="44.0" fitWidth="44.0" layoutX="24.0" layoutY="50.0" onMouseClicked="#trocaJanelas" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="52.0">
+               <image>
+                  <Image url="@../img/icons/principal_selecionado.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="janelaInfos" layoutX="108.0" prefHeight="440.0" prefWidth="440.0" style="-fx-background-color: #3D3D3D; -fx-background-radius: 16px;">
+         <children>
+            <ImageView fitHeight="44.0" fitWidth="136.0" layoutX="41.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="48.0">
+               <image>
+                  <Image url="@../img/logo/logo_296px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="41.0" layoutY="113.0" text="Informações" textFill="WHITE" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="113.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="41.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Este aplicativo foi criado único e exclusivamente para fins educativos." wrappingWidth="358.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="144.892578125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="41.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• O seu uso para prejudicar o próximo isenta qualquer responsabilidade por parte do desenvolvedor." wrappingWidth="358.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="192.892578125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="41.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Ao utilizar a aplicação o usuário concorda que seus dados serão extraídos e armazenados em um banco de dados. Estando sujeito a alterações e desprotegido de qualquer tipo de criptografia." wrappingWidth="358.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="240.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#7f7f7f" layoutX="103.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desenvolvido por Mauricio Pereira ©" wrappingWidth="236.0" AnchorPane.bottomAnchor="48.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="janelaLogs" layoutX="108.0" prefHeight="440.0" prefWidth="440.0" style="-fx-background-color: #3D3D3D; -fx-background-radius: 16px;">
+         <children>
+            <Text fill="WHITE" layoutX="40.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Todos os registros capturados pelo aplicativo" AnchorPane.bottomAnchor="369.486328125" AnchorPane.topAnchor="51.892578125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="taConsole" editable="false" focusTraversable="false" layoutX="40.0" layoutY="84.0" prefHeight="248.0" prefWidth="360.0" promptText="Não há registros" stylesheets="@../css/style.css" wrapText="true" AnchorPane.bottomAnchor="108.0" />
+            <Button alignment="CENTER" graphicTextGap="6.0" layoutX="57.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#updateText" prefHeight="40.0" prefWidth="154.0" style="-fx-background-color: #246BDC; -fx-background-radius: 8px;" text="Exibir registros" textFill="WHITE" AnchorPane.bottomAnchor="51.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icons/exibir.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="" alignment="CENTER" graphicTextGap="6.0" layoutX="229.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#limparConsole" prefHeight="40.0" prefWidth="154.0" style="-fx-background-color: #B1B1B1; -fx-background-radius: 8px;" text="Limpar console" textFill="#5c5c5c">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icons/limpar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+      <AnchorPane fx:id="fundoAutenticador" layoutX="108.0" opacity="0.85" prefHeight="440.0" prefWidth="440.0" style="-fx-background-color: #000000; -fx-background-radius: 16px;" />
+      <AnchorPane fx:id="janelaAutenticador" layoutX="208.0" layoutY="142.0" prefHeight="156.0" prefWidth="240.0" style="-fx-background-color: #3D3D3D; -fx-background-radius: 12PX;" AnchorPane.bottomAnchor="142.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="142.0">
+         <children>
+            <PasswordField fx:id="pfAutenticador" alignment="CENTER" layoutX="38.0" layoutY="53.0" prefHeight="32.0" prefWidth="164.0" style="-fx-background-color: #5C5C5C; -fx-background-radius: 6px;" stylesheets="@../css/style.css" />
+            <Text fill="WHITE" layoutX="38.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha de autenticação" textAlignment="CENTER" wrappingWidth="164.0" />
+            <Button layoutX="79.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#btnAutenticar" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: #246BDC; -fx-background-radius: 6px;" text="Autenticar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="janelaPrincipal" layoutX="108.0" prefHeight="440.0" prefWidth="440.0" style="-fx-background-color: #3D3D3D; -fx-background-radius: 16px;">
+         <children>
+            <ImageView fitHeight="96.0" fitWidth="311.0" layoutX="65.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="276.0" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="79.0" AnchorPane.topAnchor="68.0">
+               <image>
+                  <Image url="@../img/logo/logo_296px.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="65.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• O Keytracker é uma aplicação que tem a função de rastrear todas as teclas digitadas no seu teclado, exibindo precisamente data e hora." wrappingWidth="311.0" AnchorPane.topAnchor="176.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="65.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Para iniciar a gravação clique no botão abaixo. Para parar clique novamente." wrappingWidth="296.0" AnchorPane.topAnchor="242.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ToggleButton fx:id="btnLigaDesliga" layoutX="150.0" layoutY="310.0" mnemonicParsing="false" onAction="#cliqueBtn" opacity="0.0" prefHeight="54.0" prefWidth="100.0" style="-fx-background-radius: 12px; -fx-background-color: #246BDC;" textFill="WHITE" textOverrun="CLIP" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="310.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ToggleButton>
+            <ImageView fx:id="toggleLigado" fitHeight="54.0" fitWidth="100.0" layoutX="150.0" layoutY="314.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="72.0">
+               <image>
+                  <Image url="@../img/icons/on.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="toggleDesligado" fitHeight="54.0" fitWidth="100.0" layoutX="150.0" layoutY="314.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons/off.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
