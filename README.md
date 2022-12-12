@@ -60,4 +60,4 @@ Na aba de connection copia os dados e substitua nas strings da classe DAO, confo
 
 ## Autores
 
-- [@octokatherine](https://www.github.com/mauricioprb)
+- [@mauricioprb](https://www.github.com/mauricioprb)
