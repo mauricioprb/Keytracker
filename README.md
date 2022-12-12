@@ -56,7 +56,7 @@ No Railway, logue com o GitHub e crie uma data base MySQL, execute as query's
 Na aba de connection copia os dados e substitua nas strings da classe DAO, conforme já está no código
 ```
 
-#### Após concluido os passos acima, poderá executar a aplicação.
+#### Após concluídos os passos acima, poderá executar a aplicação.
 ### O uso da aplicação é estritamente para fins educacionais. Seu uso de forma indevida a fim de prejudicar o próximo anula qualquer responsabilidade por parte do desenvolvedor.
 
 ## Autores
