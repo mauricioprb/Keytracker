@@ -48,7 +48,7 @@ Ainda na opção Libraries vá na opção Run e adicione a biblioteca JAVAFX ao 
 ```
 Dentro da pasta dataBase do projeto abra o arquivo e copie as query's para seu gerenciador de banco de dados de sua preferência
 ```
-Nesse caso sugiro o [Railway](https://railway.app/). Gerenciador de banco de dados online e de fácil utilização.
+Nesse caso, sugiro o [Railway](https://railway.app/). Gerenciador de banco de dados online e de fácil utilização.
 ```
 No Railway, logue com o GitHub e crie uma data base MySQL, execute as query's
 ```
