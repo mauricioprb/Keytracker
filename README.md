@@ -46,11 +46,11 @@ Ainda na opção Libraries vá na opção Run e adicione a biblioteca JAVAFX ao 
 ### Configurações do banco de dados
 #### 1° Criar o banco a partir do arquivo
 ```
-Dentro da pasta dataBase do projeto abra o arquivo e copie as query's para seu gerenciador de banco de dados de sua preferência
+Dentro da pasta dataBase do projeto abra o arquivo e copie as queries para seu gerenciador de banco de dados de sua preferência
 ```
 Nesse caso, sugiro o [Railway](https://railway.app/). Gerenciador de banco de dados online e de fácil utilização.
 ```
-No Railway, logue com o GitHub e crie uma data base MySQL, execute as query's
+No Railway, logue com o GitHub e crie uma data base MySQL, execute as queries
 ```
 ```
 Na aba de connection copia os dados e substitua nas strings da classe DAO, conforme já está no código
