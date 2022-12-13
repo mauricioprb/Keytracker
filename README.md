@@ -14,7 +14,7 @@ A aplicação tem como objetivo extrair todas a teclas digitadas pelo usuário n
 * [JAVAFX](https://openjfx.io) - Interface Gráfica
 * [JNativeHook](https://github.com/kwhat/jnativehook) - Captura do teclado
 * [MySQLConnector](https://dev.mysql.com/downloads/connector/j) - Conexão com o banco de dados
-* [FXTrayIcon](https://github.com/dustinkredmond/FXTrayIcon) - Executar a aplicação em segundo plano
+* [FXTrayIcon](https://search.maven.org/search?q=g:%22com.dustinredmond.fxtrayicon%22%20AND%20a:%22FXTrayIcon%22) - Executar a aplicação em segundo plano
 
 ## Stack Utilizada
 
