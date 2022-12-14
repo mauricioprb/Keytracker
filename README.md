@@ -5,8 +5,7 @@
 Aplicação desenvolvida como trabalho final da disciplina de Linguagem de Programação II do curso de Ciência da Computação. Tem como função registrar as teclas digitadas pelo usuário.
 
 ## Objetivos Gerais
-Demonstrar a fragilidade da segurança no mundo tecnológico, promover a conscientização ![image](https://user-images.githubusercontent.com/61766272/207658519-5f80fc98-be17-4998-a2c7-baab6f5405e7.png)
- e prevenção contra possíveis falhas e descuidos deixadas por usuários.
+Demonstrar a fragilidade da segurança no mundo tecnológico, promover a conscientização e prevenção contra possíveis falhas e descuidos deixadas por usuários.
 
 ## Objetivos Específicos
 A aplicação tem como objetivo extrair todas a teclas digitadas pelo usuário no seu teclado, armazenando-as em um banco de dados online que será de acesso do atacante. As teclas são registradas a partir do momento que o usuário aperta no botão ligar, na tela principal do programa.
