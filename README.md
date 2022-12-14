@@ -8,7 +8,7 @@ Aplicação desenvolvida como trabalho final da disciplina de Linguagem de Progr
 Demonstrar a fragilidade da segurança no mundo tecnológico, promover a concientização e prevenção contra possíveis falhas e descuidos deixadas por usuários.
 
 ## Objetivos Específicos
-A aplicação tem como objetivo extrair todas a teclas digitadas pelo usuário no seu teclado, armazenado-as em um banco de dados online que será de acesso do atacante. As teclas são registradas a partir do momento que o usuário aperta no botão ligar, na tela principal do programa.
+A aplicação tem como objetivo extrair todas a teclas digitadas pelo usuário no seu teclado, armazenando-as em um banco de dados online que será de acesso do atacante. As teclas são registradas a partir do momento que o usuário aperta no botão ligar, na tela principal do programa.
 
 ## Bibliotecas Utilizadas
 * [JAVAFX](https://openjfx.io) - Interface Gráfica
